@@ -9,8 +9,9 @@ export class EnviaFormularioService {
 
   showTitle: boolean = false;
   
-  submit(event: any){
-    console.log(event)
+  changeTitle() {
+    console.log("Title changed!");
     this.showTitle = true;
   }
+  
 }
