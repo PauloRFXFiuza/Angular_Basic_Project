@@ -10,6 +10,7 @@ import { Component } from '@angular/core';
 export class HomeComponent {
   name: string = "Paulo Fiuza Full-Stack Dev";
   idButton: string = "homeButton";
+  showTitle: boolean = false;
 
   submit(event: any){
     console.log(event)
