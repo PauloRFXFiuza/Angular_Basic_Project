@@ -6,4 +6,11 @@ import { Injectable } from '@angular/core';
 export class EnviaFormularioService {
 
   constructor() { }
+
+  showTitle: boolean = false;
+  
+  submit(event: any){
+    console.log(event)
+    this.showTitle = true;
+  }
 }
