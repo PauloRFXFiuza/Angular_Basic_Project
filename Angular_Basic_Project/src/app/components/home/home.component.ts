@@ -11,7 +11,7 @@ export class HomeComponent {
   name: string = "Paulo Fiuza Full-Stack Dev";
   idButton: string = "homeButton";
 
-  submit(){
-    console.log("Done.")
+  submit(event: any){
+    console.log(event)
   }
 }
